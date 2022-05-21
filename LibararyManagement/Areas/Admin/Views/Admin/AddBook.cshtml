@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "AddBook";
+}
+
+<h2>AddBook</h2>
+
+<section>
+    <div>
+        <div>
+            <div>
+                <div>
+                    <label class="m-2" style="width:150px">Book Name</label>
+                    <input type="text" id="bookName" />
+                </div>
+                <div>
+                    <label class="m-2" style="width: 150px; margin: 10px">Author</label>
+                    <input type="text" id="Author" />
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label class="m-2" style="width: 150px; margin: 10px">Subject</label>
+                    <select id="Subject">
+                        <option value="">Please Select Subject</option>
+                        <option value="Religious">Religious</option>
+                        <option value="Science">Science</option>
+                        <option value="Biology">Biology</option>
+                        <option value="Reserch">Reserch</option>
+                        <option value="Biography">Biography</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label class="m-2" style="width: 150px; margin: 10px">Book Cover Page</label>
+                <input type="file" accept="image/jpg,image/png,image/jpeg" id="CoverPhoto" />
+            </div>
+        </div>
+        <div>
+            <div>
+                <label class="m-2" style="width: 150px; margin: 10px">Language</label>
+                <select id="Language">
+                    <option value="">Please Select Language</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label class="m-2" style="width: 150px; margin: 10px">Page</label>
+                <input type="number" id="NumberOfPage" />
+            </div>
+        </div>
+        <div>
+            <button onclick="submit()" class="btn btn-outline-primary margin:10px">Create</button>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+    <script>
+        function submit() {
+            var formData = new FormData();
+            var files = $("#CoverPhoto").get(0).files;
+            formData.append("files", files[0])
+            formData.append("BookName", $("#bookName").val())
+            formData.append("Author", $("#Author").val())
+            formData.append("Subject", $("#Subject").val())
+            formData.append("Language", $("#Language").val())
+            formData.append("Page", $("#NumberOfPage").val())
+            $.ajax({
+                type: 'POST',
+                url: "@Url.Action("AddBook")",
+                data: formData,
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    location.href = "@Url.Action("Index")"
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+    </script>
+}

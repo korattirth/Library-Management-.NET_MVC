@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "historyOfIssueBook";
+}
+@model List<LibararyManagement.Models.getAllIssueBookHistory_Result>
+<h2>History Book Issue</h2>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-4 mt-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height:200px" src="~/Images/@item.BookCoverPage" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="m-0">@item.BookName</h5>
+                    <div class="d-flex mt-2">
+                        <p class="m-0" style="font-weight:500;font-size:14px"><span style="color:Highlight">Subject : </span>@item.Subject</p>
+                        <p class="m-0" style="font-size:14px;font-weight:500"><span style="color:Highlight;margin-left:10px">By : </span>@item.Author</p>
+                    </div>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Language : </span>@item.Language</p>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Total Page : </span>@item.Page</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<ul class="pagination mt-3">
+    <li class="page-item"><a href="@Url.Action("getHistoryBookIssue")?page=@ViewBag.PreviousPage" class="page-link" style="cursor:pointer">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">@ViewBag.pagenum</a></li>
+    <li class="page-item"><a href="@Url.Action("getHistoryBookIssue")?page=@ViewBag.nextPagenum" class="page-link" style="cursor:pointer">Next</a></li>
+</ul>
+
+

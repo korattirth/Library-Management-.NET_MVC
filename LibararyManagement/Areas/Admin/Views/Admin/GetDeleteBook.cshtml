@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "GetDeleteBook";
+}
+
+<h2>Delete Book</h2>
+<section>
+    <div>
+        <div>
+            <div>
+                <div>
+                    <label class="m-2" style="width:150px">Book Name</label>
+                    <input type="text" id="bookName" value="@Model.BookName" disabled />
+                </div>
+                <div>
+                    <label class="m-2" style="width:150px">Author</label>
+                    <input type="text" id="Author" value="@Model.Author" disabled />
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label class="m-2" style="width:150px">Subject</label>
+                    @if (String.Equals(Model.Subject, "Religious"))
+                    {
+                        <select id="Subject" disabled>
+                            <option value="">Please Select Subject</option>
+                            <option selected value="Religious">Religious</option>
+                            <option value="Science">Science</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Reserch">Reserch</option>
+                            <option value="Biography">Biography</option>
+                        </select>
+                    }
+                    @if (String.Equals(Model.Subject, "Science"))
+                    {
+                        <select id="Subject" disabled>
+                            <option value="">Please Select Subject</option>
+                            <option value="Religious">Religious</option>
+                            <option selected value="Science">Science</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Reserch">Reserch</option>
+                            <option value="Biography">Biography</option>
+                        </select>
+                    }
+                    @if (String.Equals(Model.Subject, "Biology"))
+                    {
+                        <select id="Subject" disabled>
+                            <option value="">Please Select Subject</option>
+                            <option value="Religious">Religious</option>
+                            <option value="Science">Science</option>
+                            <option selected value="Biology">Biology</option>
+                            <option value="Reserch">Reserch</option>
+                            <option value="Biography">Biography</option>
+                        </select>
+                    }
+                    @if (String.Equals(Model.Subject, "Reserch"))
+                    {
+                        <select id="Subject" disabled>
+                            <option value="">Please Select Subject</option>
+                            <option value="Religious">Religious</option>
+                            <option value="Science">Science</option>
+                            <option value="Biology">Biology</option>
+                            <option selected value="Reserch">Reserch</option>
+                            <option value="Biography">Biography</option>
+                        </select>
+                    }
+                    @if (String.Equals(Model.Subject, "Biography"))
+                    {
+                        <select id="Subject" disabled>
+                            <option value="">Please Select Subject</option>
+                            <option value="Religious">Religious</option>
+                            <option value="Science">Science</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Reserch">Reserch</option>
+                            <option selected value="Biography">Biography</option>
+                        </select>
+                    }
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label class="m-2" style="width:150px">Book Cover Page</label>
+                <input type="file" accept="image/jpg,image/png,image/jpeg" id="CoverPhoto" value="@Model.BookCoverPage" disabled />
+            </div>
+        </div>
+        <div>
+            <div>
+                <label class="m-2" style="width:150px">Language</label>
+                @if (String.Equals(Model.Language, "English"))
+                {
+                    <select id="Language" disabled>
+                        <option value="">Please Select Language</option>
+                        <option selected value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                }
+                @if (String.Equals(Model.Language, "Hindi"))
+                {
+                    <select id="Language" disabled>
+                        <option value="">Please Select Language</option>
+                        <option value="English">English</option>
+                        <option selected value="Hindi">Hindi</option>
+                    </select>
+                }
+
+
+            </div>
+        </div>
+        <div>
+            <div>
+                <label class="m-2" style="width:150px">Page</label>
+                <input type="number" id="Page" value="@Model.Page" disabled />
+            </div>
+        </div>
+        <div>
+            <button onclick="Delete(this.value)" class="btn btn-outline-primary m-2" value="@Model.BookId">Delete</button>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+    <script>
+        function Delete(Id) {
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("DeleteBook")",
+                data: { 'Id': Id },
+                success: function () {
+                    location.href = "@Url.Action("Index")"
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+    </script>
+}

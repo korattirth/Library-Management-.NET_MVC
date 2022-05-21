@@ -1,0 +1,185 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@model List<LibararyManagement.Models.Pagination_Result>
+
+<div class="d-flex justify-content-between mb-2">
+    <h2 class="m-0">Book Details</h2>
+    @Html.ActionLink("Add book", "Addbook", "Admin", new { area = "Admin" }, new { @class = "btn btn-outline-dark" })
+</div>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-4 mt-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height:200px" src="~/Images/@item.BookCoverPage" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="m-0">@item.BookName</h5>
+                    <div class="d-flex mt-2">
+                        <p class="m-0" style="font-weight:500;font-size:14px"><span style="color:Highlight">Subject : </span>@item.Subject</p>
+                        <p class="m-0" style="font-size:14px;font-weight:500"><span style="color:Highlight;margin-left:10px">By : </span>@item.Author</p>
+                    </div>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Language : </span>@item.Language</p>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Total Page : </span>@item.Page</p>
+                    <div class="d-flex mt-2">
+                        @if (item.Status == null || item.Status == 1 || item.Status == 2)
+                        {
+                            <button class="btn btn-primary m-1" onclick="getReader(@item.BookId)">Book Issue</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary m-1" onclick="getReturnDateDiv(@item.BookId)">Return</button>
+                        }
+                        @Html.ActionLink("Edit", "EditBook", "Admin", new { area = "Admin", id = item.BookId }, new { @class = "btn btn-secondary m-1" })
+                        @Html.ActionLink("Delete", "GetDeleteBook", "Admin", new { area = "Admin", Id = item.BookId }, new { @class = "btn btn-danger m-1" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="position-absolute d-none border" style="top:50%;left:50%;transform:translate(-50%,-50%);background-color:white;width:280px" id="BookIssueDiv">
+        <div class="p-3">
+            <div class="mb-3">
+                <label class="m-0">Please Select Student</label><br />
+                <select id="select">
+                </select>
+            </div>
+            <div>
+                <label>Issue Date Is :</label>
+                <input type="date" id="date" disabled />
+                <input type="date" id="ExpectedReturnDate" hidden />
+            </div>
+        </div>
+        <div style="padding-left:16px;padding-bottom:16px">
+            <button class="btn btn-secondary" onclick="Issue(this.value)" id="IssueBtn">Issue</button>
+            <button onclick="cancelIssueDiv()" class="btn btn-danger">Cancel</button>
+        </div>
+    </div>
+    <div class="position-absolute d-none border" style="top:50%;left:50%;transform:translate(-50%,-50%);background-color:white;width:280px" id="BookReturnDiv">
+        <div class="d-flex justify-content-center align-items-center flex-column p-3">
+            <div>
+                <label>Return Date Is :</label>
+                <input type="date" id="Returndate" />
+            </div>
+        </div>
+        <div style="padding-left:16px;padding-bottom:16px">
+            <button class="btn btn-secondary" onclick="AddReturnDate(this.value)" id="IssueReturnBtn">Return Book</button>
+            <button onclick="CancelReturnDiv()" class="btn btn-danger">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<ul class="pagination mt-3">
+    <li class="page-item"><a href="@Url.Action("Index")?page=@ViewBag.PreviousPage" class="page-link" style="cursor:pointer">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">@ViewBag.pagenum</a></li>
+    <li class="page-item"><a href="@Url.Action("Index")?page=@ViewBag.nextPagenum" class="page-link" style="cursor:pointer">Next</a></li>
+</ul>
+
+@section scripts{
+
+    <script>
+        function getReader(Id) {
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1; //January is 0!
+            var yyyy = today.getFullYear();
+            if (dd < 10) {
+                dd = '0' + dd
+            }
+            if (mm < 10) {
+                mm = '0' + mm
+            }
+            today = yyyy + '-' + mm + '-' + dd;
+            $("#BookIssueDiv").removeClass('d-none');
+            $("#select").empty();
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("getReaderData","Admin")",
+                success: function (result) {
+                    $("#date").val(today);
+                    $("#IssueBtn").val(Id);
+                    $.each(result, function (index, value) {
+                        $("#select").append('<option value = ' + value.UserId + '>' + value.FirstName + ' ' + value.LastName + '</option>')
+                    })
+                    console.log(result)
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+        function cancelIssueDiv() {
+            $("#BookIssueDiv").addClass('d-none');
+        }
+        function CancelReturnDiv() {
+            $("#BookReturnDiv").addClass("d-none")
+        }
+        function Issue(Id) {
+            var date = $("#date").val();
+            let returnDates = new Date(date);
+            var UserId = $("#select").val();
+            returnDates.setDate(returnDates.getDate() + 5);
+            if ((returnDates.getMonth() + 1) < 9) {
+                var month = '0' + (returnDates.getMonth() + 1)
+            }
+            else {
+                var month = (returnDates.getMonth() + 1)
+            }
+            if (returnDates.getDate() < 9) {
+                var day = '0' + returnDates.getDate()
+            }
+            else {
+                var day = returnDates.getDate()
+            }
+
+            let formatted_date = returnDates.getFullYear() + "-" + month + "-" + day;
+            $("#ExpectedReturnDate").val(formatted_date);
+            var returnDate = $("#ExpectedReturnDate").val();
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("BookIssue")",
+                data: {
+                    "BookId": Id,
+                    "IssueDate": date,
+                    "UserId": UserId,
+                    "status": '0', /*BookIssueStatus*/
+                    "ExpectedReturnDate": returnDate
+                },
+                success: function (result) {
+                    location.href = "@Url.Action("index")"
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+        function getReturnDateDiv(Id) {
+            var today = new Date().toISOString().split('T')[0];
+            $("#Returndate").attr('min', today)
+            $("#BookReturnDiv").removeClass("d-none");
+            $("#BookIssueDiv").addClass('d-none');
+            $("#IssueReturnBtn").val(Id)
+        }
+        function AddReturnDate(BookId) {
+            var ReturnDate = $("#Returndate").val();
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("returnBookDate")",
+                data: {
+                    "BookId": BookId,
+                    "ReturnDate": ReturnDate,
+                },
+                success: function () {
+                    location.href = "@Url.Action("index")"
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+    </script>
+}

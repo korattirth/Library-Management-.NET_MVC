@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        @if ((Convert.ToInt32(Session["UserTypeId"]) == 1) || (Convert.ToInt32(Session["UserTypeId"]) == 2) || (Convert.ToInt32(Session["UserTypeId"]) == 3))
+        {
+            <h2>You Have't' Role For This Page Access.</h2>
+        }
+        @if ((Convert.ToString(Session["UserTypeId"]) == ""))
+        {
+            <h2>You Should Login For This Page Access.</h2>
+        }
+    </hgroup>
+    <a href="/Home/Login">Login</a>
+</body>
+</html>

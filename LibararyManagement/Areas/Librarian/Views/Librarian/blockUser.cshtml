@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "User Management";
+}
+@model List<LibararyManagement.Models.getAllUser_Result>
+<h2>Users</h2>
+
+<table class="table">
+    <tbody>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </tbody>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Email</td>
+                <td>@item.Address</td>
+                <td>
+                    @if (item.IsActive == 0)
+                    {
+                        <button class="btn btn-primary" onclick="unBlockUser(this.value)" value="@item.UserId">Unblock</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-danger" onclick="blockUser(this.value)" value="@item.UserId">Block</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+        function blockUser(Id) {
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("blockUser")",
+                data: { 'Id': Id },
+                success: function () {
+                    location.href = "@Url.Action("blockUser")"
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+        function unBlockUser(Id) {
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("unBlock")",
+                data: { 'Id': Id },
+                success: function () {
+                    location.href = "@Url.Action("blockUser")"
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+    </script>
+}

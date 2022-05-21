@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Libarary_ManagementEntities">
+    <EntitySetMapping Name="BookIssues">
+      <EntityTypeMapping TypeName="Model.BookIssue">
+        <MappingFragment StoreEntitySet="BookIssue">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ExpectedDate" ColumnName="ExpectedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="Model.Book">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserDetails">
+      <EntityTypeMapping TypeName="Model.UserDetail">
+        <MappingFragment StoreEntitySet="UserDetail">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="addBookIssueData" FunctionName="Model.Store.addBookIssueData" />
+    <FunctionImportMapping FunctionImportName="AddEditBook" FunctionName="Model.Store.AddEditBook" />
+    <FunctionImportMapping FunctionImportName="AddNewBook" FunctionName="Model.Store.AddNewBook" />
+    <FunctionImportMapping FunctionImportName="addReturnDate" FunctionName="Model.Store.addReturnDate" />
+    <FunctionImportMapping FunctionImportName="addStatus" FunctionName="Model.Store.addStatus" />
+    <FunctionImportMapping FunctionImportName="AddUserDetail" FunctionName="Model.Store.AddUserDetail" />
+    <FunctionImportMapping FunctionImportName="cheakReturnDateForStatus" FunctionName="Model.Store.cheakReturnDateForStatus" />
+    <FunctionImportMapping FunctionImportName="DeleteBook" FunctionName="Model.Store.DeleteBook" />
+    <FunctionImportMapping FunctionImportName="getAllAvailbleBook" FunctionName="Model.Store.getAllAvailbleBook">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getAllAvailbleBook_Result">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAllBooks" FunctionName="Model.Store.GetAllBooks">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetAllBooks_Result">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getAllIssueBook" FunctionName="Model.Store.getAllIssueBook">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getAllIssueBook_Result">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getAllIssueBookHistory" FunctionName="Model.Store.getAllIssueBookHistory">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getAllIssueBookHistory_Result">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetDeleteBook" FunctionName="Model.Store.GetDeleteBook">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetDeleteBook_Result">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetEditBook" FunctionName="Model.Store.GetEditBook">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetEditBook_Result">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getReader" FunctionName="Model.Store.getReader">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getReader_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="LoginUser" FunctionName="Model.Store.LoginUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.LoginUser_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Pagination" FunctionName="Model.Store.Pagination">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.Pagination_Result">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BookCoverPage" ColumnName="BookCoverPage" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getAllUser" FunctionName="Model.Store.getAllUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getAllUser_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="blockUser" FunctionName="Model.Store.blockUser" />
+    <FunctionImportMapping FunctionImportName="unBlockUser" FunctionName="Model.Store.unBlockUser" />
+    <FunctionImportMapping FunctionImportName="getAllUsersWithLibrarian" FunctionName="Model.Store.getAllUsersWithLibrarian">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getAllUsersWithLibrarian_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="addvalidationForBookIssue" FunctionName="Model.Store.addvalidationForBookIssue" />
+    <FunctionImportMapping FunctionImportName="EditUser" FunctionName="Model.Store.EditUser" />
+    <FunctionImportMapping FunctionImportName="getEditUser" FunctionName="Model.Store.getEditUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getEditUser_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="deleteUser" FunctionName="Model.Store.deleteUser" />
+    <FunctionImportMapping FunctionImportName="getDeleteUser" FunctionName="Model.Store.getDeleteUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.getDeleteUser_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

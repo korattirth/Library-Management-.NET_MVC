@@ -1,0 +1,94 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+@model List<LibararyManagement.Models.getAllIssueBook_Result>
+
+<div class="d-flex justify-content-between mb-2">
+    <h2 class="m-0">Issue Book</h2>
+</div>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-4 mt-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height:200px" src="~/Images/@item.BookCoverPage" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="m-0">@item.BookName</h5>
+                    <div class="d-flex mt-2">
+                        <p class="m-0" style="font-weight:500;font-size:14px"><span style="color:Highlight">Subject : </span>@item.Subject</p>
+                        <p class="m-0" style="font-size:14px;font-weight:500"><span style="color:Highlight;margin-left:10px">By : </span>@item.Author</p>
+                    </div>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Language : </span>@item.Language</p>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Total Page : </span>@item.Page</p>
+                    <div class="d-flex mt-2">
+                        @if (item.Status == null || item.Status == 1 || item.Status == 2)
+                        {
+                            <button class="btn btn-primary m-1" onclick="getReader(@item.BookId)">Book Issue</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary m-1" onclick="getReturnDateDiv(@item.BookId)">Return</button>
+                        }
+                        @Html.ActionLink("Edit", "EditBook", "librarian", new { area = "librarian", id = item.BookId }, new { @class = "btn btn-secondary m-1" })
+                        @Html.ActionLink("Delete", "GetDeleteBook", "librarian", new { area = "librarian", Id = item.BookId }, new { @class = "btn btn-danger m-1" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="position-absolute d-none border" style="top:50%;left:50%;transform:translate(-50%,-50%);background-color:white;width:280px" id="BookReturnDiv">
+        <div class="d-flex justify-content-center align-items-center flex-column p-3">
+            <div>
+                <label>Return Date Is :</label>
+                <input type="date" id="Returndate" />
+            </div>
+        </div>
+        <div style="padding-left:16px;padding-bottom:16px">
+            <button class="btn btn-secondary" onclick="AddReturnDate(this.value)" id="IssueReturnBtn">Return Book</button>
+            <button onclick="CancelReturnDiv()" class="btn btn-danger">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<ul class="pagination mt-3">
+    <li class="page-item"><a href="@Url.Action("Index")?page=@ViewBag.PreviousPage" class="page-link" style="cursor:pointer">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">@ViewBag.pagenum</a></li>
+    <li class="page-item"><a href="@Url.Action("Index")?page=@ViewBag.nextPagenum" class="page-link" style="cursor:pointer">Next</a></li>
+</ul>
+
+@section scripts{
+
+    <script>
+        function CancelReturnDiv() {
+            $("#BookReturnDiv").addClass("d-none")
+        }
+        function getReturnDateDiv(Id) {
+            var today = new Date().toISOString().split('T')[0];
+            $("#Returndate").attr('min', today)
+            $("#BookReturnDiv").removeClass("d-none");
+            $("#BookIssueDiv").addClass('d-none');
+            $("#IssueReturnBtn").val(Id)
+        }
+        function AddReturnDate(BookId) {
+            var ReturnDate = $("#Returndate").val();
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("returnBookDate")",
+                data: {
+                    "BookId": BookId,
+                    "ReturnDate": ReturnDate,
+                },
+                success: function () {
+                    location.href = "@Url.Action("index")"
+                },
+                error: function () {
+                    console.log("Somthing Went Wrong")
+                }
+            })
+        }
+    </script>
+}

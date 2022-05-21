@@ -1,0 +1,49 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+@model List<LibararyManagement.Models.getAllIssueBook_Result>
+
+<div class="d-flex justify-content-between mb-2">
+    <h2 class="m-0">Issue Book</h2>
+</div>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-4 mt-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height:200px" src="~/Images/@item.BookCoverPage" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="m-0">@item.BookName</h5>
+                    <div class="d-flex mt-2">
+                        <p class="m-0" style="font-weight:500;font-size:14px"><span style="color:Highlight">Subject : </span>@item.Subject</p>
+                        <p class="m-0" style="font-size:14px;font-weight:500"><span style="color:Highlight;margin-left:10px">By : </span>@item.Author</p>
+                    </div>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Language : </span>@item.Language</p>
+                    <p class="m-0" style="font-size:14px;font-weight:500;"><span style="color:Highlight;">Total Page : </span>@item.Page</p>
+                    <div class="d-flex mt-2">
+                        @if (item.Status == null || item.Status == 1 || item.Status == 2)
+                        {
+                            <button class="btn btn-primary m-1">Available</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary m-1">Issue</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+<ul class="pagination mt-3">
+    <li class="page-item"><a href="@Url.Action("Index")?page=@ViewBag.PreviousPage" class="page-link" style="cursor:pointer">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">@ViewBag.pagenum</a></li>
+    <li class="page-item"><a href="@Url.Action("Index")?page=@ViewBag.nextPagenum" class="page-link" style="cursor:pointer">Next</a></li>
+</ul>
+

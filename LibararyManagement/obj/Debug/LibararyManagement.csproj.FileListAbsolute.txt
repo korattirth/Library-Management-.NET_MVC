@@ -1,0 +1,261 @@
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\LibararyManagement.dll.config
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\LibararyManagement.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\LibararyManagement.pdb
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\csc.exe
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\csc.exe.config
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\csc.rsp
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\csi.exe
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\csi.exe.config
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\csi.rsp
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.AppContext.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Collections.Immutable.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Console.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Globalization.Calendars.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.Compression.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.FileSystem.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Net.Http.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Net.Sockets.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Reflection.Metadata.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.ValueTuple.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.XPath.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\vbc.exe
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\vbc.exe.config
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\vbc.rsp
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\VBCSCompiler.exe
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\roslyn\VBCSCompiler.exe.config
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Antlr3.Runtime.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\EntityFramework.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\EntityFramework.SqlServer.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.HashCode.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Memory.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Binder.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Options.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Primitives.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Web.Infrastructure.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Newtonsoft.Json.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Buffers.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Collections.Immutable.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.ComponentModel.Annotations.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Diagnostics.DiagnosticSource.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Memory.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Numerics.Vectors.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Threading.Tasks.Extensions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Helpers.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Mvc.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Optimization.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Razor.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Deployment.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Razor.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\WebGrease.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\EntityFramework.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\EntityFramework.SqlServer.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.HashCode.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Abstractions.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Memory.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Binder.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.Abstractions.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Options.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Primitives.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Buffers.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Collections.Immutable.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Diagnostics.DiagnosticSource.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Memory.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Numerics.Vectors.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Threading.Tasks.Extensions.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Helpers.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Mvc.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Optimization.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.Razor.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Deployment.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Razor.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Newtonsoft.Json.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Antlr3.Runtime.pdb
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.csproj.AssemblyReference.cache
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.csproj.CoreCompileInputs.cache
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.csproj.CopyComplete
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.pdb
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\LibararyManagement.dll.config
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\LibararyManagement.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\LibararyManagement.pdb
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\csc.exe
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\csc.exe.config
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\csc.rsp
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\csi.exe
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\csi.exe.config
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\csi.rsp
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.AppContext.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Console.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Net.Http.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Net.Sockets.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\vbc.exe
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\vbc.exe.config
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\vbc.rsp
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Antlr3.Runtime.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\EntityFramework.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Options.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Newtonsoft.Json.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Buffers.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Collections.Immutable.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.ComponentModel.Annotations.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Memory.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Numerics.Vectors.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Helpers.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Mvc.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Optimization.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Razor.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\WebGrease.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\EntityFramework.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Bcl.HashCode.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Options.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Buffers.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Collections.Immutable.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Memory.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Numerics.Vectors.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Helpers.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Mvc.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Optimization.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.Razor.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Newtonsoft.Json.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Antlr3.Runtime.pdb
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.csproj.AssemblyReference.cache
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.csproj.CoreCompileInputs.cache
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.csproj.CopyComplete
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.dll
+C:\Users\korat tirth\Desktop\LibararyManagement\LibararyManagement\LibararyManagement\obj\Debug\LibararyManagement.pdb
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Unity.Abstractions.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Unity.Container.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Unity.Mvc5.dll
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Unity.Abstractions.pdb
+F:\Dot Net\Mvc\Libarary Management\LibararyManagement\LibararyManagement\bin\Unity.Container.pdb
